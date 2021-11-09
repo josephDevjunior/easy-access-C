@@ -10,7 +10,8 @@
 
 # Installing Dependencies 
 Install Dependencies in login-frontend folder
-[The Documentation](https://nodejs.org/en/docs/).
+
+[the documentation](https://nodejs.org/en/docs/).
 
 Install Dependencies in  login-backend folder
 
