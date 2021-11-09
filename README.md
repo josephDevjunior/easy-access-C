@@ -9,11 +9,10 @@
 [![Forks](https://img.shields.io/github/forks/GabrielLuizSF/React-Laravel?color=%23191F2B&style=flat-square)](https://github.com/GabrielLuizSF/React-Laravel/network/members)
 
 # Installing Dependencies 
-Install Dependencies in login-frontend 😎
+Install Dependencies in login-frontend folder
+[The Documentation](https://nodejs.org/en/docs/).
 
-<a src="https://nodejs.dev/learn/npm-dependencies-and-devdependencies" target="_blank">NodeJS Learn</a>
-
-Install Dependencies in login-backend 😎
+Install Dependencies in  login-backend folder
 
 
-<a src="https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies" target="_blank">Composer Learn</a>
+ [the documentation](https://getcomposer.org/doc/).
