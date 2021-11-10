@@ -1,4 +1,8 @@
+## Installing Dependencies
 
+```bash
+ npm install
+ ```
 
 ## Getting Started
 
