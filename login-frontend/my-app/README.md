@@ -1,10 +1,10 @@
+## Getting Started
+
 ## Installing Dependencies
 
 ```bash
  npm install
  ```
-
-## Getting Started
 
 First, run the development server:
 
