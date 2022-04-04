@@ -8,11 +8,11 @@ int main(){
 	 system("cls");
        
 	while(1){
-		 printf("Master =>");
+		 printf("Gabriel =>");
            gets(userinput);
 		if(strcmp(userinput,"exit")==0){
          system("cls");
-         printf("Ok Bye (;-;)\n");
+         printf("Ok Bye (;-;) (press enter from close window)\n");
          break;
 		}else	if(strcmp(userinput,"hi")==0){
          system("cls");
@@ -51,12 +51,19 @@ int main(){
          printf("Youtube Open\n");
          
 		}
+			else if(strcmp(userinput,"netflix")==0){
+         system("start https://www.netflix.com");
+         system("cls");
+         printf("Netflix Open\n");
+         
+		}
 			else if(strcmp(userinput,"chrome")==0){
          system("start chrome");
          system("cls");
          printf("Google Chrome Open\n");
          
 		}
+			
 		else if(strcmp(userinput,"time")==0)
      {
          time_t s, val =1 ;
@@ -68,6 +75,16 @@ int main(){
          //print hour and second
          printf("bot ==> %02d:%02d:%02d\n",current_time->tm_hour,current_time->tm_min,current_time->tm_sec);
      }
+     else if(strcmp(userinput,"IP")==0){
+         system("ipconfig /all");
+         printf("You IP\n");
+         
+		}
+    else if(strcmp(userinput,"Clear")==0){
+         system("cls");
+         printf("Hello Master :) \n");
+         
+		}
 	}
 
 	return 0;
