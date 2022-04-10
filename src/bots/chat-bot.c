@@ -50,7 +50,11 @@ int main(){
          system("cls");
          printf("Youtube Open\n");
          
-		}
+		} else if(strcmp(userinput,"whatsapp")==0){
+            system("start https://web.whatsapp.com/");
+            system("cls");
+            printf("Scan QRCode Now\n");
+        }
 			else if(strcmp(userinput,"netflix")==0){
          system("start https://www.netflix.com");
          system("cls");
@@ -75,12 +79,12 @@ int main(){
          //print hour and second
          printf("bot ==> %02d:%02d:%02d\n",current_time->tm_hour,current_time->tm_min,current_time->tm_sec);
      }
-     else if(strcmp(userinput,"IP")==0){
+     else if(strcmp(userinput,"ip")==0){
          system("ipconfig /all");
          printf("You IP\n");
          
 		}
-    else if(strcmp(userinput,"Clear")==0){
+    else if(strcmp(userinput,"clear")==0){
          system("cls");
          printf("Hello Master :) \n");
          
