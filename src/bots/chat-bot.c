@@ -12,59 +12,59 @@ int main(){
            gets(userinput);
 		if(strcmp(userinput,"exit")==0){
          system("cls");
-         printf("Ok Bye (;-;) (press enter from close window)\n");
+         printf("[bot] ._.)=>Ok Bye (;-;) (press enter from close window)\n");
          break;
 		}else	if(strcmp(userinput,"hi")==0){
          system("cls");
-         printf("hello Master :) \n");
+         printf("[bot] ._.)=>Hello Master :) \n");
        
 		}	else if(strcmp(userinput,"note")==0){
          system("start notepad");
          system("cls");
-         printf("Note open\n");
+         printf("[bot] ._.)=>Note open\n");
          
 		}
 		else if(strcmp(userinput,"code")==0){
          system("code");
          system("cls");
-         printf("Visual Studio Code open\n");
+         printf("[bot] ._.)=>Visual Studio Code open\n");
          
 		}else if(strcmp(userinput,"cmd")==0){
          system("start cmd");
          system("cls");
-         printf("Comand Prompt open\n");
+         printf("[bot] ._.)=>[bot]=>Comand Prompt open\n");
          
 		}
 		else if(strcmp(userinput,"google")==0){
          system("start https://google.com.br");
          system("cls");
-         printf("Google Open\n");
+         printf("[bot] ._.)=>Google Open\n");
          
 		}	else if(strcmp(userinput,"github")==0){
          system("start https://github.com.br");
          system("cls");
-         printf("Github Open\n");
+         printf("[bot] ._.)=>Github Open\n");
          
 		}	else if(strcmp(userinput,"youtube")==0){
          system("start https://youtube.com.br");
          system("cls");
-         printf("Youtube Open\n");
+         printf("[bot] ._.)=>Youtube Open\n");
          
 		} else if(strcmp(userinput,"whatsapp")==0){
             system("start https://web.whatsapp.com/");
             system("cls");
-            printf("Scan QRCode Now\n");
+            printf("[bot] ._.)=>Scan QRCode Now\n");
         }
 			else if(strcmp(userinput,"netflix")==0){
          system("start https://www.netflix.com");
          system("cls");
-         printf("Netflix Open\n");
+         printf("[bot] ._.)=>Netflix Open\n");
          
 		}
 			else if(strcmp(userinput,"chrome")==0){
          system("start chrome");
          system("cls");
-         printf("Google Chrome Open\n");
+         printf("[bot] ._.)=>Google Chrome Open\n");
          
 		}
 			
@@ -77,16 +77,22 @@ int main(){
          current_time = localtime(&s);
          //print time in minute
          //print hour and second
-         printf("bot ==> %02d:%02d:%02d\n",current_time->tm_hour,current_time->tm_min,current_time->tm_sec);
+         printf("[bot]._.) ==> %02d:%02d:%02d\n",current_time->tm_hour,current_time->tm_min,current_time->tm_sec);
      }
      else if(strcmp(userinput,"ip")==0){
+         printf("[bot]._.)=>You IP\n");
          system("ipconfig /all");
-         printf("You IP\n");
+        
+         
+		}
+		 else if(strcmp(userinput,"bye")==0){
+         system("shutdown -s");
+         printf("[bot]._.)=>bye\n");
          
 		}
     else if(strcmp(userinput,"clear")==0){
          system("cls");
-         printf("Hello Master :) \n");
+         printf("[bot]._.)=>Hello Master :) \n");
          
 		}
 	}
