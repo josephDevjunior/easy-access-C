@@ -8,7 +8,7 @@ int main(){
 	 system("cls");
        
 	while(1){
-		 printf("Gabriel =>");
+		 printf("Username =>");
            gets(userinput);
 		if(strcmp(userinput,"exit")==0){
          system("cls");
@@ -64,7 +64,7 @@ int main(){
 			else if(strcmp(userinput,"chrome")==0){
          system("start chrome");
          system("cls");
-         printf("[bot] ._.)=>Google Chrome Open\n");
+         printf("[bot] ._.)==>Google Chrome Open\n");
          
 		}
 			
@@ -80,19 +80,19 @@ int main(){
          printf("[bot]._.) ==> %02d:%02d:%02d\n",current_time->tm_hour,current_time->tm_min,current_time->tm_sec);
      }
      else if(strcmp(userinput,"ip")==0){
-         printf("[bot]._.)=>You IP\n");
-         system("ipconfig /all");
-        
+     	    printf("[bot]._.)==>You IP\n");
+             system("ipconfig /all");
+     
          
 		}
-		 else if(strcmp(userinput,"bye")==0){
+		 else if(strcmp(userinput,"poweroff")==0){
          system("shutdown -s");
-         printf("[bot]._.)=>bye\n");
+         printf("[bot]._.)==>bye\n");
          
 		}
     else if(strcmp(userinput,"clear")==0){
          system("cls");
-         printf("[bot]._.)=>Hello Master :) \n");
+         printf("[bot]._.)==>comands:clear,poweroff,ip,time,note,code,website name,and exit from close window");
          
 		}
 	}
