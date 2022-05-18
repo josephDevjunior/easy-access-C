@@ -2,13 +2,19 @@
 #include <conio.h>
 #include <string.h>
 #include <time.h>
+
+
+#define ANSI_COLOR_RED     	"\x1b[31m" //cores em ANSI utilizadas 
+#define ANSI_COLOR_GREEN	"\e[0;32m"
+#define ANSI_COLOR_RESET   "\x1b[0m"
+    
+	char style;
 	char userinput[];
 int main(){
 
 	 system("cls");
-       
 	while(1){
-		 printf("Username =>");
+		 printf(" =>");
            gets(userinput);
 		if(strcmp(userinput,"exit")==0){
          system("cls");
@@ -23,6 +29,57 @@ int main(){
          system("cls");
          printf("[bot] ._.)=>Note open\n");
          
+		}else if(strcmp(userinput,"style")==0){
+		printf("select styleRed from set color red or styleGreen from set color green");
+		}
+		else if(strcmp(userinput,"styleRed")==0){
+           printf("Write red from set color Red\n   or Select resetStyle for return the default\n",style);
+           printf("\n");
+           scanf("%c",&style);
+             if(style="Red"){
+            
+            printf(ANSI_COLOR_RED"[bot] ._.)=> Red Selected\n");
+			}else if(style="red"){
+    
+            printf(ANSI_COLOR_RED"[bot] ._.)=> Red Selected\n");
+			}
+		}
+			
+		else if(strcmp(userinput,"styleGreen")==0){
+           printf("Write Green from set color green\n  or  Select resetStyle for return the default\n",style);
+           printf("\n");
+           scanf("%c",&style);
+			
+			if(style="green"){
+            
+            printf(ANSI_COLOR_GREEN"[bot] ._.)=> Green Selected\n");
+			}else if(style="Green"){
+				
+				printf(ANSI_COLOR_GREEN"[bot] ._.)=> Green Selected\n");
+	        }
+         	
+	
+			}
+			else if(strcmp(userinput,"resetStyle")==0){
+	    		if(style="Red"){
+	    			printf(ANSI_COLOR_RESET"[bot] ._.)=> Reset Color....\n");
+	    		}
+	           	if(style="red"){
+	        		
+		 		printf(ANSI_COLOR_RESET"[bot] ._.)=> Reset Color....\n");
+				}
+				printf("\n");
+				if(style="Green"){
+	        		printf(ANSI_COLOR_RESET"[bot] ._.)=> Reset Color....\n");
+				}else if(style="green"){
+					printf(ANSI_COLOR_RESET"[bot] ._.)=> Reset Color....\n");
+				}
+			
+     
+		}
+			
+		else if(strcmp(userinput,"styleColor")==0){
+		  printf("The Color style is %c",style);
 		}
 		else if(strcmp(userinput,"code")==0){
          system("code");
@@ -61,6 +118,12 @@ int main(){
          printf("[bot] ._.)=>Netflix Open\n");
          
 		}
+			else if(strcmp(userinput,"stackoverflow")==0){
+         system("start https://pt.stackoverflow.com");
+         system("cls");
+         printf("[bot] ._.)=>Write you Question\n");
+         
+		}
 			else if(strcmp(userinput,"chrome")==0){
          system("start chrome");
          system("cls");
@@ -92,7 +155,7 @@ int main(){
 		}
     else if(strcmp(userinput,"clear")==0){
          system("cls");
-         printf("[bot]._.)==>comands:clear,poweroff,ip,time,note,code,website name,and exit from close window");
+         printf("[bot]._.)==>comands:clear,poweroff,ip,time,note,code,website name,and exit from close \n");
          
 		}
 	}
