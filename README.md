@@ -19,7 +19,7 @@ diz oi ao EasyAcess
 # note 
 Abre o bloco de Notas
 # style 
-mostra as duas cores de letras possiveis
+mostra as duas cores de letras disponiveis
 # styleRed 
 da a opção de mudar a cor da letra para vermelho
 # styleGreen 
