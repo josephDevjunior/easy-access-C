@@ -12,3 +12,23 @@ the application was created to access software and websites
 # Download 
 <a href="https://drive.google.com/uc?export=download&id=1NhPoMYGnxGKJPVqVM8hQeZ8udFIWZOqs"  target="_blank" rel="noopener noreferer" >Download Windows</a>
 # Codes
+# exit == Fecha o EasyAcess
+# hi == diz oi ao EasyAcess
+# note == Abre o bloco de Notas
+# style == mostra as duas cores de letras possiveis
+# styleRed == da a opção de mudar a cor da letra para vermelho
+# styleGreen == da a opção de mudar a cor da letra para verde
+# resetStyle == Volta a letra para a cor padrão
+# code == Abre o Visual Studio Code
+# cmd == Abre o CMD
+# google == Abre o Google Search
+# github == Abre o github mas para funcionar devido a extrema segurança do github você precisa dar reload na página.
+# youtube == Abre o youtube
+# whatsapp == Abre o whatsapp
+# netflix == Abre a netflix
+# stackoverflow == salva você tirando suas dúvidas de programação + abre o stackoverflow
+# chrome == abre o chrome
+# time == diz a hora
+# ip == revela todo o seu ip (funciona igual o ipconfig /all do cmd só que neste terminal só precisa digitar ip)
+# poweroff == desliga seu pc
+# clear == limpa os códigos anteriores(funciona igual o cls do cmd)
