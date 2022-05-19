@@ -9,7 +9,7 @@
 [![Forks](https://img.shields.io/github/forks/GabrielLuizSF/easy-access-C?color=%23191F2B&style=flat-square)](https://github.com/GabrielLuizSF/React-Laravel/network/members)
 
 the application was created to access software and websites
-# Download 
+# Download version 2.0 LTS
 <a href="https://drive.google.com/uc?export=download&id=1NhPoMYGnxGKJPVqVM8hQeZ8udFIWZOqs"  target="_blank" rel="noopener noreferer" >Download Windows</a>
 # Codes 💻
 # exit 
