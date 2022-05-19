@@ -1,7 +1,7 @@
 # Welcome
 
 
-#  Getting Starded
+#  Getting Starded 🖖🏻
 
 [![Author](https://img.shields.io/badge/author-GabrielLuiz-191F2B?style=flat-square)](https://github.com/GabrielLuizSF)
 [![Languages](https://img.shields.io/github/languages/count/GabrielLuizSF/easy-access-C?color=%23191F2B&style=flat-square)](#)
@@ -11,7 +11,7 @@
 the application was created to access software and websites
 # Download 
 <a href="https://drive.google.com/uc?export=download&id=1NhPoMYGnxGKJPVqVM8hQeZ8udFIWZOqs"  target="_blank" rel="noopener noreferer" >Download Windows</a>
-# Codes
+# Codes 💻
 # exit 
 Fecha o EasyAcess
 # hi 
