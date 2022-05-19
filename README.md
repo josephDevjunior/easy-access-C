@@ -11,6 +11,9 @@
 the application was created to access software and websites
 # Download version 2.0 LTS
 <a href="https://drive.google.com/uc?export=download&id=1NhPoMYGnxGKJPVqVM8hQeZ8udFIWZOqs"  target="_blank" rel="noopener noreferer" >Download Windows</a>
+
+# How to Use
+Execute the file EasyAcess.exe in the path EasyAcess\binaries\EasyAcess.exe
 # Codes 💻
 # exit 
 Fecha o EasyAcess
