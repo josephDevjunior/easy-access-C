@@ -33,54 +33,48 @@ int main(){
 		printf("select styleRed from set color red or styleGreen from set color green");
 		}
 		else if(strcmp(userinput,"styleRed")==0){
-           printf("Write red from set color Red\n   or Select resetStyle for return the default\n",style);
-           printf("\n");
-           scanf("%c",&style);
-             if(style="Red"){
+        
+             if(style="styleRed"){
             
             printf(ANSI_COLOR_RED"[bot] ._.)=> Red Selected\n");
-			}else if(style="red"){
-    
+			}else if(style="stylered"){
+            
             printf(ANSI_COLOR_RED"[bot] ._.)=> Red Selected\n");
 			}
 		}
 			
 		else if(strcmp(userinput,"styleGreen")==0){
-           printf("Write Green from set color green\n  or  Select resetStyle for return the default\n",style);
-           printf("\n");
-           scanf("%c",&style);
-			
-			if(style="green"){
             
             printf(ANSI_COLOR_GREEN"[bot] ._.)=> Green Selected\n");
-			}else if(style="Green"){
-				
-				printf(ANSI_COLOR_GREEN"[bot] ._.)=> Green Selected\n");
-	        }
-         	
-	
 			}
-			else if(strcmp(userinput,"resetStyle")==0){
-	    		if(style="Red"){
+			else if(strcmp(userinput,"stylegreen")==0){
+            
+            printf(ANSI_COLOR_GREEN"[bot] ._.)=> Green Selected\n");
+			}
+			
+         	
+			
+		else if(strcmp(userinput,"resetStyle")==0){
+	    		if(style="styleRed"){
 	    			printf(ANSI_COLOR_RESET"[bot] ._.)=> Reset Color....\n");
 	    		}
-	           	if(style="red"){
+	           	if(style="stylered"){
 	        		
-		 		printf(ANSI_COLOR_RESET"[bot] ._.)=> Reset Color....\n");
+		 		    printf(ANSI_COLOR_RESET"[bot] ._.)=> Reset Color....\n");
 				}
 				printf("\n");
-				if(style="Green"){
+				if(style="styleGreen"){
 	        		printf(ANSI_COLOR_RESET"[bot] ._.)=> Reset Color....\n");
-				}else if(style="green"){
+				}else if(style="stylegreen"){
 					printf(ANSI_COLOR_RESET"[bot] ._.)=> Reset Color....\n");
 				}
 			
      
 		}
-			
 		else if(strcmp(userinput,"styleColor")==0){
 		  printf("The Color style is %c",style);
 		}
+		
 		else if(strcmp(userinput,"code")==0){
          system("code");
          system("cls");
@@ -160,5 +154,5 @@ int main(){
 		}
 	}
 
-	return 0;
+return 0;
 }
