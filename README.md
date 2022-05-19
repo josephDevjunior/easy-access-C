@@ -10,5 +10,5 @@
 
 the application was created to access software and websites
 # Download 
-<a href="https://drive.google.com/uc?export=download&id=1NhPoMYGnxGKJPVqVM8hQeZ8udFIWZOqs"  target="_blank" rel="noopener noreferer" >Download</a>
+<a href="https://drive.google.com/uc?export=download&id=1NhPoMYGnxGKJPVqVM8hQeZ8udFIWZOqs"  target="_blank" rel="noopener noreferer" >Download Windows</a>
 # Codes
