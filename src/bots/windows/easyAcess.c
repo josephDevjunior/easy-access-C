@@ -75,11 +75,16 @@ int main(){
 		else if(strcmp(userinput,"styleColor")==0){
 		  printf("The Color style is %c",style);
 		}
+			else if(strcmp(userinput,"suspend")==0){
+		  system("rundll32.exe PowrProf.dll,SetSuspendState");
+		  system("cls");
+		  printf("[bot] ._.)==>Welcome Back");
+		}
 		
 		else if(strcmp(userinput,"code")==0){
          system("code");
          system("cls");
-         printf("[bot] ._.)=>Visual Studio Code open\n");
+         printf("[bot] ._.)==>Visual Studio Code open\n");
          
 		}else if(strcmp(userinput,"cmd")==0){
          system("start cmd");
