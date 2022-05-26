@@ -131,8 +131,9 @@ int main(){
 				  printf("[bot] ._.)==>......");
 			}
 			else if(strcmp(userinput,"Drivers")==0){
-				system("Driverquery");
-			     printf("Your Drivers");
+                printf("[bot]._.)=>All Drivers\n");
+				  system("Driverquery");
+			
 			}
 		else if(strcmp(userinput,"time")==0)
      {
