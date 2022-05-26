@@ -7,6 +7,7 @@
 #define ANSI_COLOR_RED     	"\x1b[31m" //cores em ANSI utilizadas 
 #define ANSI_COLOR_GREEN	"\e[0;32m"
 #define ANSI_COLOR_RESET   "\x1b[0m"
+   
     
 	char style;
 	char userinput[];
@@ -68,7 +69,7 @@ int main(){
 				}else if(style="stylegreen"){
 					printf(ANSI_COLOR_RESET"[bot] ._.)=> Reset Color....\n");
 				}
-			
+     
      
 		}
 		else if(strcmp(userinput,"styleColor")==0){
@@ -115,16 +116,24 @@ int main(){
 			else if(strcmp(userinput,"stackoverflow")==0){
          system("start https://pt.stackoverflow.com");
          system("cls");
-         printf("[bot] ._.)=>Write you Question\n");
+         printf("[bot] ._.)==>Write you Question\n");
          
 		}
 			else if(strcmp(userinput,"chrome")==0){
-         system("start chrome");
-         system("cls");
-         printf("[bot] ._.)==>Google Chrome Open\n");
+           system("start chrome");
+           system("cls");
+              printf("[bot] ._.)==>Google Chrome Open\n");
          
 		}
-			
+		//TODO: Habilitar Privilegios de Adm
+			else if(strcmp(userinput,"powerOnFast")==0){
+				system("defrag c: /B");
+				  printf("[bot] ._.)==>......");
+			}
+			else if(strcmp(userinput,"Drivers")==0){
+				system("Driverquery");
+			     printf("Your Drivers");
+			}
 		else if(strcmp(userinput,"time")==0)
      {
          time_t s, val =1 ;
