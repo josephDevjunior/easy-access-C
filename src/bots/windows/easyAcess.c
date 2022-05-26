@@ -78,7 +78,7 @@ int main(){
 			else if(strcmp(userinput,"suspend")==0){
 		  system("rundll32.exe PowrProf.dll,SetSuspendState");
 		  system("cls");
-		  printf("[bot] ._.)==>Welcome Back");
+		  printf("[bot] ._.)==>Welcome Back\n");
 		}
 		
 		else if(strcmp(userinput,"code")==0){
