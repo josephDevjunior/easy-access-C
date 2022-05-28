@@ -165,7 +165,7 @@ int main(){
 		  printf("[bot] ._.)==>Welcome Back\n");
 		}
 		
-		//Clear EasyAcess command
+		//Clear EasyAccess command
     else if(strcmp(userinput,"clear")==0){
          system("cls"); 
 		}
@@ -181,7 +181,7 @@ int main(){
 				 printf("# google :\n\n=>Abre o Google Search\n\n\n# github :\n\n =>Abre o github mas para funcionar devido a extrema seguranca do github voce precisa dar reload na pagina.\n\n\n# youtube :\n\n=>Abre o youtube\n\n\n");
                  printf("# whatsapp :\n\n=> Abre o whatsapp\n\n\n# netflix :\n\n=> Abre a netflix\n\n\n# stackoverflow :\n\n=> salva voce tirando suas duvidas de programacao & abre o stackoverflow\n\n\n");
                  //Easy Access chat
-                 printf("# exit :\n\n=>Fecha o EasyAccess\n\n\n# hi :\n\n=>diz oi ao EasyAcess\n\n\n# clear :\n\n=>limpa os codigos anteriores'funciona igual o cls do cmd'\n\n# version :\n\n=>mostra a versao do Easy Access\n\n\n");
+                 printf("# exit :\n\n=>Fecha o EasyAccess\n\n\n# hi :\n\n=>diz oi ao EasyAccess\n\n\n# clear :\n\n=>limpa os codigos anteriores'funciona igual o cls do cmd'\n\n# version :\n\n=>mostra a versao do Easy Access\n\n\n");
                  //S.O codes
                  printf("# time :\n\n => diz a hora\n\n\n# ip :\n\n=> revela todo o seu ip 'funciona igual o ipconfig /all do cmd so que neste terminal so precisa digitar ip'\n\n\n# poweroff :\n\n=> Desliga seu PC\n\n\n# Suspend :\n\n=>suspende o seu PC\n\n\n#Drivers :\n\n=>Mostra todos os Drivers\n\n");
 				printf("===============================================================================\n\n\n");
