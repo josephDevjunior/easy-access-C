@@ -190,9 +190,10 @@ int main(){
                  //Easy Access chat
                  printf("# exit :\n\n=>Fecha o EasyAccess\n\n\n# hi :\n\n=>diz oi ao EasyAccess\n\n\n# clear :\n\n=>limpa os codigos anteriores'funciona igual o cls do cmd'\n\n# version :\n\n=>mostra a versao do Easy Access\n\n\n");
                  //S.O codes
-                 printf("# time :\n\n => diz a hora\n\n\n# ip :\n\n=> revela todo o seu ip 'funciona igual o ipconfig /all do cmd so que neste terminal so precisa digitar ip'\n\n\n# poweroff :\n\n=> Desliga seu PC\n\n\n# Suspend :\n\n=>suspende o seu PC\n\n\n#Drivers :\n\n=>Mostra todos os Drivers\n\n");
+                 printf("# time :\n\n => diz a hora\n\n\n# ip :\n\n=> revela todo o seu ip 'funciona igual o ipconfig /all do cmd so que neste terminal so precisa digitar ip'\n\n\n# poweroff :\n\n=> Desliga seu PC\n\n\n# Suspend :\n\n=>suspende o seu PC\n\n\n# Drivers :\n\n=>Mostra todos os Drivers\n\n\n# update :\n\n\n Leva ao repositorio no github para baixar a nova versao\n\n");
 				printf("===============================================================================\n\n\n");
 		}
+		
 	}
 
 return 0;
