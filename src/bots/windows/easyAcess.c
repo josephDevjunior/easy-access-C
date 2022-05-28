@@ -13,8 +13,10 @@
 	char userinput[];
 int main(){
 
-	 system("cls");
+    system("cls");
 	while(1){
+
+		
 		 printf(" =>");
            gets(userinput);
            //Close Easy Access
@@ -23,17 +25,21 @@ int main(){
          printf("[bot] ._.)=>Ok Bye (;-;) (press enter from close window)\n");
          break;
 		}
+		//VERSION
+		else if(strcmp(userinput,"version")==0){
+				 printf("Easy Access [version 4.0]\n\nCopyright (c) 2021 Gabriel Luiz\n\nMIT License\n\n");
+                 printf("WELCOME to the Easy Access Console.\n\n");
+                   printf("===============================================================================\n");
+                       printf(" Run 'manual' to see all available commands.\nMy Creator is  https://github.com/GabrielLuizSF\nOpen Source Repository:https://github.com/GabrielLuizSF/easy-access-C \n\n");
+                             printf("===============================================================================\n");
+		}  
 		
 		else if(strcmp(userinput,"hi")==0){
          system("cls");
-         printf("[bot] ._.)=>Hello Master :) \n");
+         printf("[bot] ._.)=>Hello Master  \n");
        
 		}
-		//TODO: Habilitar privilegios de adm
-		else if(strcmp(userinput,"RemoveVirus")==0){
-			system("del/q/f/a/s*.bat");
-			printf("[bot]._.)=>Virus is Dead\n");
-					}	
+
 		else if(strcmp(userinput,"note")==0){
          system("start notepad");
          system("cls");
@@ -45,15 +51,11 @@ int main(){
 		printf("select styleRed from set color red or styleGreen from set color green");
 		}
 		else if(strcmp(userinput,"styleRed")==0){
-        
-             if(style="styleRed"){
-            
+    
             printf(ANSI_COLOR_RED"[bot] ._.)=> Red Selected\n");
-			}else if(style="stylered"){
-            
-            printf(ANSI_COLOR_RED"[bot] ._.)=> Red Selected\n");
+
 			}
-		}
+		
 			
 		else if(strcmp(userinput,"styleGreen")==0){
             
@@ -67,25 +69,11 @@ int main(){
          	
 			
 		else if(strcmp(userinput,"resetStyle")==0){
-	    		if(style="styleRed"){
 	    			printf(ANSI_COLOR_RESET"[bot] ._.)=> Reset Color....\n");
-	    		}
-	           	if(style="stylered"){
-	        		
-		 		    printf(ANSI_COLOR_RESET"[bot] ._.)=> Reset Color....\n");
-				}
-				printf("\n");
-				if(style="styleGreen"){
-	        		printf(ANSI_COLOR_RESET"[bot] ._.)=> Reset Color....\n");
-				}else if(style="stylegreen"){
-					printf(ANSI_COLOR_RESET"[bot] ._.)=> Reset Color....\n");
 				}
      
      
-		}
-		else if(strcmp(userinput,"styleColor")==0){
-		  printf("The Color style is %c",style);
-		}
+		
 	
 		
 		else if(strcmp(userinput,"code")==0){
@@ -139,11 +127,7 @@ int main(){
               printf("[bot] ._.)==>Google Chrome Open\n");
          
 		}
-		//TODO: Habilitar Privilegios de Adm
-			else if(strcmp(userinput,"powerOnFast")==0){
-				system("defrag c: /B");
-				  printf("[bot] ._.)==>......");
-			}
+	        //To see all available Drivers
 			else if(strcmp(userinput,"Drivers")==0){
                 printf("[bot]._.)=>All Drivers\n");
 				  system("Driverquery");
@@ -168,12 +152,13 @@ int main(){
      
          
 		}
-		//Poweroff your pc & suspend your PC commands
+		//Poweroff command
 		 else if(strcmp(userinput,"poweroff")==0){
          system("shutdown -s");
          printf("[bot]._.)==>bye\n");
          
 		}
+		//suspend command
 				else if(strcmp(userinput,"suspend")==0){
 		  system("rundll32.exe PowrProf.dll,SetSuspendState");
 		  system("cls");
@@ -182,9 +167,24 @@ int main(){
 		
 		//Clear EasyAcess command
     else if(strcmp(userinput,"clear")==0){
-         system("cls");
-         printf("[bot]._.)==>comands:clear,poweroff,ip,time,note,code,website name,and exit from close \n");
-         
+         system("cls"); 
+		}
+		//Manual Command
+		else if(strcmp(userinput,"manual")==0){
+				printf("===============================================================================\n");
+				printf("Manage your Windows.\n\nCommands =>\n\n\n");
+				//Open Systems codes
+				 printf("# note :\n\n=>Abre o bloco de Notas\n\n\n# code :\n\n=>Abre o Visual Studio Code\n\n\n# cmd :\n\n=>Abre o CMD\n\n\n# chrome :\n\n=> abre o chrome\n\n\n");
+				//Styles codes
+				 printf("# style :\n\n=> mostra as duas cores de letras disponiveis\n\n\n# styleRed :\n\n=>da a opcao de mudar a cor da letra para vermelho\n\n\n# styleGreen :\n\n=>da a opcao de mudar a cor da letra para verde\n\n\n# resetStyle :\n\n =>Volta a cor da letra  padrao\n\n\n ");
+				//Open Website codes
+				 printf("# google :\n\n=>Abre o Google Search\n\n\n# github :\n\n =>Abre o github mas para funcionar devido a extrema seguranca do github voce precisa dar reload na pagina.\n\n\n# youtube :\n\n=>Abre o youtube\n\n\n");
+                 printf("# whatsapp :\n\n=> Abre o whatsapp\n\n\n# netflix :\n\n=> Abre a netflix\n\n\n# stackoverflow :\n\n=> salva voce tirando suas duvidas de programacao & abre o stackoverflow\n\n\n");
+                 //Easy Access chat
+                 printf("# exit :\n\n=>Fecha o EasyAccess\n\n\n# hi :\n\n=>diz oi ao EasyAcess\n\n\n# clear :\n\n=>limpa os codigos anteriores'funciona igual o cls do cmd'\n\n# version :\n\n=>mostra a versao do Easy Access\n\n\n");
+                 //S.O codes
+                 printf("# time :\n\n => diz a hora\n\n\n# ip :\n\n=> revela todo o seu ip 'funciona igual o ipconfig /all do cmd so que neste terminal so precisa digitar ip'\n\n\n# poweroff :\n\n=> Desliga seu PC\n\n\n# Suspend :\n\n=>suspende o seu PC\n\n\n#Drivers :\n\n=>Mostra todos os Drivers\n\n");
+				printf("===============================================================================\n\n\n");
 		}
 	}
 
