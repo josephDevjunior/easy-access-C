@@ -9,6 +9,8 @@
 [![Forks](https://img.shields.io/github/forks/GabrielLuizSF/easy-access-C?color=%23191F2B&style=flat-square)](https://github.com/GabrielLuizSF/easy-access-c/network/members)
 
 the application was created to manage O.S and access software and websites
+
+#Download version 4.0 LTS
 # Download version 2.0 
 <a href="https://drive.google.com/uc?export=download&id=1NhPoMYGnxGKJPVqVM8hQeZ8udFIWZOqs"  target="_blank" rel="noopener noreferer" >Download Windows</a>
 
@@ -56,7 +58,7 @@ desliga seu pc
 # clear 
 limpa os códigos anteriores(funciona igual o cls do cmd)
 
-# New Features in Version 4.0 🤓:
+# New Codes in Version 4.0 🤓:
 # manual
 mostra todos os códigos
 # version
