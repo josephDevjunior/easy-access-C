@@ -14,7 +14,7 @@ the application was created to access software and websites
 
 # How to Use
 Execute the file EasyAcess.exe in the path EasyAcess\binaries\EasyAcess.exe
-# Codes 💻
+# Codes version 2.0👨🏻‍💻
 # exit 
 Fecha o EasyAcess
 # hi 
