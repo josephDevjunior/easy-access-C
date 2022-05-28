@@ -8,17 +8,17 @@
 [![Stars](https://img.shields.io/github/stars/GabrielLuizSF/easy-access-C?color=191F2B&style=flat-square)](https://github.com/GabrielLuizSF/easy-access-c/stargazers)
 [![Forks](https://img.shields.io/github/forks/GabrielLuizSF/easy-access-C?color=%23191F2B&style=flat-square)](https://github.com/GabrielLuizSF/easy-access-c/network/members)
 
-the application was created to access software and websites
-# Download version 2.0 LTS
+the application was created to manage O.S and access software and websites
+# Download version 2.0 
 <a href="https://drive.google.com/uc?export=download&id=1NhPoMYGnxGKJPVqVM8hQeZ8udFIWZOqs"  target="_blank" rel="noopener noreferer" >Download Windows</a>
 
 # How to Use
-Execute the file EasyAcess.exe in the path EasyAcess\binaries\EasyAcess.exe
+Execute the file EasyAccess.exe in the path EasyAccess\binaries\EasyAccess.exe
 # Codes version 2.0👨🏻‍💻
 # exit 
-Fecha o EasyAcess
+Fecha o EasyAccess
 # hi 
-diz oi ao EasyAcess
+diz oi ao EasyAccess
 # note 
 Abre o bloco de Notas
 # style 
@@ -55,3 +55,13 @@ revela todo o seu ip (funciona igual o ipconfig /all do cmd só que neste termin
 desliga seu pc
 # clear 
 limpa os códigos anteriores(funciona igual o cls do cmd)
+
+# New Features in Version 4.0 🤓:
+# manual
+mostra todos os códigos
+# version
+mostra a versão do Easy Access
+# suspend
+Deixa seu PC em modo de suspensão
+#Drivers
+Mostra todos os Drivers instalados no seu S.O até os do própio kernel
