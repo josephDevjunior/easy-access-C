@@ -27,7 +27,7 @@ int main(){
 		}
 		//VERSION
 		else if(strcmp(userinput,"version")==0){
-				 printf("Easy Access [version 4.0]\n\nCopyright (c) 2021 Gabriel Luiz\n\nMIT License\n\n");
+				 printf("Easy Access [version 4.1]\n\nCopyright (c) 2021 Gabriel Luiz\n\nMIT License\n\n");
                  printf("WELCOME to the Easy Access Console.\n\n");
                    printf("===============================================================================\n");
                        printf(" Run 'manual' to see all available commands.\nMy Creator is  https://github.com/GabrielLuizSF\nOpen Source Repository:https://github.com/GabrielLuizSF/easy-access-C \n\n");
@@ -168,6 +168,13 @@ int main(){
 		//Clear EasyAccess command
     else if(strcmp(userinput,"clear")==0){
          system("cls"); 
+		}
+		//Update command
+		else if(strcmp(userinput,"update")==0){
+        system("start https://github.com/GabrielLuizSF/easy-access-C");
+					printf("===============================================================================\n");
+				printf("Como Atualizar para a Nova Versao ?\n\n\n Esse site que abriu agora e onde e guardado o codigo fonte do Easy Access\n\n Para voce baixar a nova versao basta procurar no README a versao LTS\n\n\n  Ao clicar no nome Download Windows vai baixar um arquivo zip\n\n\nSe tiver a versao 4.0 so precisa substituir os arquivos da pasta binaries pelos da versao LTS\n\n\nQue estao dentro de EasyAccess>>>binaries \n\n\n");
+					printf("===============================================================================\n");
 		}
 		//Manual Command
 		else if(strcmp(userinput,"manual")==0){
