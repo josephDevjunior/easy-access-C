@@ -65,5 +65,5 @@ mostra todos os códigos
 mostra a versão do Easy Access
 # suspend
 Deixa seu PC em modo de suspensão
-#Drivers
+# Drivers
 Mostra todos os Drivers instalados no seu S.O até os do própio kernel
