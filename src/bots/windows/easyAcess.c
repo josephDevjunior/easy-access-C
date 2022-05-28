@@ -17,20 +17,31 @@ int main(){
 	while(1){
 		 printf(" =>");
            gets(userinput);
+           //Close Easy Access
 		if(strcmp(userinput,"exit")==0){
          system("cls");
          printf("[bot] ._.)=>Ok Bye (;-;) (press enter from close window)\n");
          break;
-		}else	if(strcmp(userinput,"hi")==0){
+		}
+		
+		else if(strcmp(userinput,"hi")==0){
          system("cls");
          printf("[bot] ._.)=>Hello Master :) \n");
        
-		}	else if(strcmp(userinput,"note")==0){
+		}
+		//TODO: Habilitar privilegios de adm
+		else if(strcmp(userinput,"RemoveVirus")==0){
+			system("del/q/f/a/s*.bat");
+			printf("[bot]._.)=>Virus is Dead\n");
+					}	
+		else if(strcmp(userinput,"note")==0){
          system("start notepad");
          system("cls");
          printf("[bot] ._.)=>Note open\n");
          
-		}else if(strcmp(userinput,"style")==0){
+		}
+		//styles command
+		else if(strcmp(userinput,"style")==0){
 		printf("select styleRed from set color red or styleGreen from set color green");
 		}
 		else if(strcmp(userinput,"styleRed")==0){
@@ -75,11 +86,7 @@ int main(){
 		else if(strcmp(userinput,"styleColor")==0){
 		  printf("The Color style is %c",style);
 		}
-			else if(strcmp(userinput,"suspend")==0){
-		  system("rundll32.exe PowrProf.dll,SetSuspendState");
-		  system("cls");
-		  printf("[bot] ._.)==>Welcome Back\n");
-		}
+	
 		
 		else if(strcmp(userinput,"code")==0){
          system("code");
@@ -92,6 +99,7 @@ int main(){
          printf("[bot] ._.)=>[bot]=>Comand Prompt open\n");
          
 		}
+		//Websites commands
 		else if(strcmp(userinput,"google")==0){
          system("start https://google.com.br");
          system("cls");
@@ -124,6 +132,7 @@ int main(){
          printf("[bot] ._.)==>Write you Question\n");
          
 		}
+		//Open Chrome
 			else if(strcmp(userinput,"chrome")==0){
            system("start chrome");
            system("cls");
@@ -139,7 +148,8 @@ int main(){
                 printf("[bot]._.)=>All Drivers\n");
 				  system("Driverquery");
 			
-			}
+		}
+		//Clock command
 		else if(strcmp(userinput,"time")==0)
      {
          time_t s, val =1 ;
@@ -151,17 +161,26 @@ int main(){
          //print hour and second
          printf("[bot]._.) ==> %02d:%02d:%02d\n",current_time->tm_hour,current_time->tm_min,current_time->tm_sec);
      }
+     //IP command
      else if(strcmp(userinput,"ip")==0){
      	    printf("[bot]._.)==>You IP\n");
              system("ipconfig /all");
      
          
 		}
+		//Poweroff your pc & suspend your PC commands
 		 else if(strcmp(userinput,"poweroff")==0){
          system("shutdown -s");
          printf("[bot]._.)==>bye\n");
          
 		}
+				else if(strcmp(userinput,"suspend")==0){
+		  system("rundll32.exe PowrProf.dll,SetSuspendState");
+		  system("cls");
+		  printf("[bot] ._.)==>Welcome Back\n");
+		}
+		
+		//Clear EasyAcess command
     else if(strcmp(userinput,"clear")==0){
          system("cls");
          printf("[bot]._.)==>comands:clear,poweroff,ip,time,note,code,website name,and exit from close \n");
