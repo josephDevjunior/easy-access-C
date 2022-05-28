@@ -8,7 +8,7 @@
 [![Stars](https://img.shields.io/github/stars/GabrielLuizSF/easy-access-C?color=191F2B&style=flat-square)](https://github.com/GabrielLuizSF/easy-access-c/stargazers)
 [![Forks](https://img.shields.io/github/forks/GabrielLuizSF/easy-access-C?color=%23191F2B&style=flat-square)](https://github.com/GabrielLuizSF/easy-access-c/network/members)
 
-the application was created to manage O.S and access software and websites
+the application was created to control O.S and access software and websites
 
 # Download Version 4.0 LTS
 <a href="https://drive.google.com/uc?export=download&id=1i5k4Q7tLj0nA2u9LqkDKShdwJ7WEzDTD"  target="_blank" rel="noopener noreferer" >Download Windows</a>
