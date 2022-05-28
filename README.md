@@ -10,7 +10,7 @@
 
 the application was created to manage O.S and access software and websites
 
-#Download version 4.0 LTS
+# Download version 4.0 LTS
 # Download version 2.0 
 <a href="https://drive.google.com/uc?export=download&id=1NhPoMYGnxGKJPVqVM8hQeZ8udFIWZOqs"  target="_blank" rel="noopener noreferer" >Download Windows</a>
 
