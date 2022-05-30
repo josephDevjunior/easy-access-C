@@ -11,7 +11,7 @@
 the application was created to control O.S and access software and websites
 
 # Download Version 4.2 LTS
-
+<a href="https://drive.google.com/uc?export=download&id=1Zt_6HFoODRlEARusqfKvn7WVrfkDhuuR"  target="_blank" rel="noopener noreferer" >Download Windows V 2.0</a>
 # Others Versions
 <a href="https://drive.google.com/uc?export=download&id=1i5k4Q7tLj0nA2u9LqkDKShdwJ7WEzDTD"  target="_blank" rel="noopener noreferer" >Download Windows V 4.0</a>
 <br/>
