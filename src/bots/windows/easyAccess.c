@@ -3,11 +3,14 @@
 #include <string.h>
 #include <time.h>
 
-
-#define ANSI_COLOR_RED     	"\x1b[31m" //cores em ANSI utilizadas 
-#define ANSI_COLOR_GREEN	"\e[0;32m"
+//cores em ANSI utilizadas
 #define ANSI_COLOR_RESET   "\x1b[0m"
-   
+#define ANSI_COLOR_RED     	"\x1b[31m"  
+#define ANSI_COLOR_GREEN	"\e[0;32m"
+#define ANSI_COLOR_CYAN     "\e[0;36m"
+#define ANSI_COLOR_PURPLE   "\e[1;35m"
+#define ANSI_COLOR_YELLOW   "\e[0;33m"
+#define ANSI_COLOR_BLUE     "\e[0;34m"
     
 	char style;
 	char userinput[];
@@ -27,7 +30,7 @@ int main(){
 		}
 		//VERSION
 		else if(strcmp(userinput,"version")==0){
-				 printf("Easy Access [version 4.1]\n\nCopyright (c) 2021 Gabriel Luiz\n\nMIT License\n\n");
+				 printf("Easy Access [version 4.2]\n\nCopyright (c) 2021 Gabriel Luiz\n\nMIT License\n\n");
                  printf("WELCOME to the Easy Access Console.\n\n");
                    printf("===============================================================================\n");
                        printf(" Run 'manual' to see all available commands.\nMy Creator is  https://github.com/GabrielLuizSF\nOpen Source Repository:https://github.com/GabrielLuizSF/easy-access-C \n\n");
@@ -47,15 +50,43 @@ int main(){
          
 		}
 		//styles command
-		else if(strcmp(userinput,"style")==0){
-		printf("select styleRed from set color red or styleGreen from set color green");
-		}
+			else if(strcmp(userinput,"styles")==0){
+				printf(ANSI_COLOR_RESET"===============================================================================\n");
+				printf("\n\nAll Available Commands =>\n\n\n");
+				printf(ANSI_COLOR_RED"styleRed=>   Letra Vermelha\n\n");
+				printf(ANSI_COLOR_BLUE"styleBlue=>  Letra Azul\n\n");
+				printf(ANSI_COLOR_CYAN"styleCyan=>  Letra Ciano\n\n");
+				printf(ANSI_COLOR_GREEN"styleGreen=>  Letra Verde\n\n");
+				printf(ANSI_COLOR_PURPLE"stylePurple=>  Letra Roxo\n\n");
+				printf(ANSI_COLOR_YELLOW"styleYellow=>  Letra Amarela\n\n");
+				printf(ANSI_COLOR_RESET"resetStyle=>  Letra Padrao\n\n\n");
+				printf(ANSI_COLOR_RESET"===============================================================================\n");
+           }
 		else if(strcmp(userinput,"styleRed")==0){
-    
+            
             printf(ANSI_COLOR_RED"[bot] ._.)=> Red Selected\n");
 
 			}
-		
+			else if(strcmp(userinput,"styleCyan")==0){
+            
+            printf(ANSI_COLOR_CYAN"[bot] ._.)=> Cyan Selected\n");
+
+		}
+		else if(strcmp(userinput,"stylePurple")==0){
+            
+            printf(ANSI_COLOR_PURPLE"[bot] ._.)=> Purple Selected\n");
+
+		}
+		else if(strcmp(userinput,"styleYellow")==0){
+            
+            printf(ANSI_COLOR_YELLOW"[bot] ._.)=> Yellow Selected\n");
+
+		}
+		else if(strcmp(userinput,"styleBlue")==0){
+            
+            printf(ANSI_COLOR_BLUE"[bot] ._.)=> Blue Selected\n");
+
+		}
 			
 		else if(strcmp(userinput,"styleGreen")==0){
             
@@ -65,16 +96,14 @@ int main(){
             
             printf(ANSI_COLOR_GREEN"[bot] ._.)=> Green Selected\n");
 			}
-			
-         	
-			
+				
 		else if(strcmp(userinput,"resetStyle")==0){
 	    			printf(ANSI_COLOR_RESET"[bot] ._.)=> Reset Color....\n");
-				}
+		}
      
      
 		
-	
+	//Systems codes
 		
 		else if(strcmp(userinput,"code")==0){
          system("code");
@@ -94,7 +123,7 @@ int main(){
          printf("[bot] ._.)=>Google Open\n");
          
 		}	else if(strcmp(userinput,"github")==0){
-         system("start https://github.com.br");
+         system("start https://github.com/GabrielLuizSF");
          system("cls");
          printf("[bot] ._.)=>Github Open\n");
          
@@ -183,7 +212,7 @@ int main(){
 				//Open Systems codes
 				 printf("# note :\n\n=>Abre o bloco de Notas\n\n\n# code :\n\n=>Abre o Visual Studio Code\n\n\n# cmd :\n\n=>Abre o CMD\n\n\n# chrome :\n\n=> abre o chrome\n\n\n");
 				//Styles codes
-				 printf("# style :\n\n=> mostra as duas cores de letras disponiveis\n\n\n# styleRed :\n\n=>da a opcao de mudar a cor da letra para vermelho\n\n\n# styleGreen :\n\n=>da a opcao de mudar a cor da letra para verde\n\n\n# resetStyle :\n\n =>Volta a cor da letra  padrao\n\n\n ");
+				 printf("# styles :\n\n=> mostra todas as cores de letras disponiveis\n\n\n");
 				//Open Website codes
 				 printf("# google :\n\n=>Abre o Google Search\n\n\n# github :\n\n =>Abre o github mas para funcionar devido a extrema seguranca do github voce precisa dar reload na pagina.\n\n\n# youtube :\n\n=>Abre o youtube\n\n\n");
                  printf("# whatsapp :\n\n=> Abre o whatsapp\n\n\n# netflix :\n\n=> Abre a netflix\n\n\n# stackoverflow :\n\n=> salva voce tirando suas duvidas de programacao & abre o stackoverflow\n\n\n");
