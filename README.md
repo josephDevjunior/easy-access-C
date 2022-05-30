@@ -10,14 +10,16 @@
 
 the application was created to control O.S and access software and websites
 
-# Download Version 4.0 LTS
-<a href="https://drive.google.com/uc?export=download&id=1i5k4Q7tLj0nA2u9LqkDKShdwJ7WEzDTD"  target="_blank" rel="noopener noreferer" >Download Windows</a>
+# Download Version 4.2 LTS
+
 # Others Versions
+<a href="https://drive.google.com/uc?export=download&id=1i5k4Q7tLj0nA2u9LqkDKShdwJ7WEzDTD"  target="_blank" rel="noopener noreferer" >Download Windows V 4.0</a>
+<br/>
 <a href="https://drive.google.com/uc?export=download&id=1NhPoMYGnxGKJPVqVM8hQeZ8udFIWZOqs"  target="_blank" rel="noopener noreferer" >Download Windows V 2.0</a>
 
 # How to Use
 Execute the file EasyAccess.exe in the path EasyAccess\binaries\EasyAccess.exe
-# Codes version 2.0👨🏻‍💻
+# Version 2.0 Codes
 # exit 
 Fecha o EasyAccess
 # hi 
@@ -59,7 +61,7 @@ desliga seu pc
 # clear 
 limpa os códigos anteriores(funciona igual o cls do cmd)
 
-# New Codes in Version 4.0 🤓:
+# Version 4.0 Codes:
 # manual
 mostra todos os códigos
 # version
@@ -68,3 +70,11 @@ mostra a versão do Easy Access
 Deixa seu PC em modo de suspensão
 # Drivers
 Mostra todos os Drivers instalados no seu S.O até os do própio kernel
+
+# New Version 4.2 Codes 🤓
+# update
+Ensina como atualizar para a versao LTS e entra no local de download
+# styles
+comando style foi atualizado para styles mostrando todas as novas cores adicionadas
+# github
+solucionado o bug de segurança do github
