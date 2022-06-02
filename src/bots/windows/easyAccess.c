@@ -11,47 +11,50 @@
 #define ANSI_COLOR_PURPLE   "\e[1;35m"
 #define ANSI_COLOR_YELLOW   "\e[0;33m"
 #define ANSI_COLOR_BLUE     "\e[0;34m"
+#define VERSION   "[4.2.4]"
     
-	char style;
-	char userinput[];
+char style;
+char userinput[];
+
+
 int main(){
 
     system("cls");
 	while(1){
 
-		
+    system("cls");
+            printf("\n\n                EASY ACCESS CONSOLE  PRO RELEASE    VERSION:"VERSION);
+                   printf("\n\n===================================================================================\n");
+                       printf(" Run 'manual' to see all available commands.\nMy Creator is  https://github.com/GabrielLuizSF\nOpen Source Repository:https://github.com/GabrielLuizSF/easy-access-C \n\n");
+                             printf("===================================================================================\n");
 		 printf(" =>");
            gets(userinput);
+           
            //Close Easy Access
 		if(strcmp(userinput,"exit")==0){
          system("cls");
          printf("[bot] ._.)=>Ok Bye (;-;) (press enter from close window)\n");
          break;
 		}
+		
 		//VERSION
 		else if(strcmp(userinput,"version")==0){
-				 printf("Easy Access [version 4.2]\n\nCopyright (c) 2021 Gabriel Luiz\n\nMIT License\n\n");
-                 printf("WELCOME to the Easy Access Console.\n\n");
-                   printf("===============================================================================\n");
-                       printf(" Run 'manual' to see all available commands.\nMy Creator is  https://github.com/GabrielLuizSF\nOpen Source Repository:https://github.com/GabrielLuizSF/easy-access-C \n\n");
-                             printf("===============================================================================\n");
+			     system("cls");
+				 printf("Easy Access \n\nCopyright (c) 2021 Gabriel Luiz\n\nMIT License\n\nVERSION:"VERSION);
+             
 		}  
 		
+		//HI
 		else if(strcmp(userinput,"hi")==0){
          system("cls");
          printf("[bot] ._.)=>Hello Master  \n");
        
 		}
-
-		else if(strcmp(userinput,"note")==0){
-         system("start notepad");
-         system("cls");
-         printf("[bot] ._.)=>Note open\n");
-         
-		}
+      
 		//styles command
 			else if(strcmp(userinput,"styles")==0){
-				printf(ANSI_COLOR_RESET"===============================================================================\n");
+				     system("cls");
+				printf(ANSI_COLOR_BLUE"===============================================================================\n");
 				printf("\n\nAll Available Commands =>\n\n\n");
 				printf(ANSI_COLOR_RED"styleRed=>   Letra Vermelha\n\n");
 				printf(ANSI_COLOR_BLUE"styleBlue=>  Letra Azul\n\n");
@@ -60,51 +63,58 @@ int main(){
 				printf(ANSI_COLOR_PURPLE"stylePurple=>  Letra Roxo\n\n");
 				printf(ANSI_COLOR_YELLOW"styleYellow=>  Letra Amarela\n\n");
 				printf(ANSI_COLOR_RESET"resetStyle=>  Letra Padrao\n\n\n");
-				printf(ANSI_COLOR_RESET"===============================================================================\n");
+				printf(ANSI_COLOR_BLUE"===============================================================================\n");
            }
-		else if(strcmp(userinput,"styleRed")==0){
-            
-            printf(ANSI_COLOR_RED"[bot] ._.)=> Red Selected\n");
-
+	     	else if(strcmp(userinput,"styleRed")==0){
+             style = "red";
+                  system("cls");
+             printf(ANSI_COLOR_RED"[bot] ._.)=> Red Selected\n");
+   
 			}
 			else if(strcmp(userinput,"styleCyan")==0){
-            
+            style ="cyan";
+                 system("cls");
             printf(ANSI_COLOR_CYAN"[bot] ._.)=> Cyan Selected\n");
 
-		}
-		else if(strcmp(userinput,"stylePurple")==0){
-            
-            printf(ANSI_COLOR_PURPLE"[bot] ._.)=> Purple Selected\n");
+	      	}
+		    else if(strcmp(userinput,"stylePurple")==0){
+             style="purple";
+                  system("cls");
+             printf(ANSI_COLOR_PURPLE"[bot] ._.)=> Purple Selected\n");
 
-		}
-		else if(strcmp(userinput,"styleYellow")==0){
-            
-            printf(ANSI_COLOR_YELLOW"[bot] ._.)=> Yellow Selected\n");
-
-		}
-		else if(strcmp(userinput,"styleBlue")==0){
-            
-            printf(ANSI_COLOR_BLUE"[bot] ._.)=> Blue Selected\n");
-
-		}
+		     }
+		    else if(strcmp(userinput,"styleYellow")==0){
+             style="yellow";
+                  system("cls");
+             printf(ANSI_COLOR_YELLOW"[bot] ._.)=> Yellow Selected\n");
+            }
+		    else if(strcmp(userinput,"styleBlue")==0){
+             style="blue";
+                  system("cls");
+             printf(ANSI_COLOR_BLUE"[bot] ._.)=> Blue Selected\n");
+			 }
 			
-		else if(strcmp(userinput,"styleGreen")==0){
-            
-            printf(ANSI_COLOR_GREEN"[bot] ._.)=> Green Selected\n");
-			}
-			else if(strcmp(userinput,"stylegreen")==0){
-            
-            printf(ANSI_COLOR_GREEN"[bot] ._.)=> Green Selected\n");
+		    else if(strcmp(userinput,"styleGreen")==0){
+             style="green";
+                  system("cls");
+             printf(ANSI_COLOR_GREEN"[bot] ._.)=> Green Selected\n");
 			}
 				
-		else if(strcmp(userinput,"resetStyle")==0){
-	    			printf(ANSI_COLOR_RESET"[bot] ._.)=> Reset Color....\n");
-		}
+		    else if(strcmp(userinput,"resetStyle")==0){
+             style="default";
+                  system("cls");
+	    			printf(ANSI_COLOR_RESET"[bot] ._.)=> Default Color\n");
+		     }
      
      
 		
 	//Systems codes
-		
+	else if(strcmp(userinput,"note")==0){
+         system("start notepad");
+         system("cls");
+         printf("[bot] ._.)=>Note open\n");
+         
+		}
 		else if(strcmp(userinput,"code")==0){
          system("code");
          system("cls");
@@ -116,7 +126,9 @@ int main(){
          printf("[bot] ._.)=>[bot]=>Comand Prompt open\n");
          
 		}
+	
 		//Websites commands
+
 		else if(strcmp(userinput,"google")==0){
          system("start https://google.com.br");
          system("cls");
@@ -149,6 +161,7 @@ int main(){
          printf("[bot] ._.)==>Write you Question\n");
          
 		}
+	
 		//Open Chrome
 			else if(strcmp(userinput,"chrome")==0){
            system("start chrome");
@@ -156,15 +169,19 @@ int main(){
               printf("[bot] ._.)==>Google Chrome Open\n");
          
 		}
+	
 	        //To see all available Drivers
 			else if(strcmp(userinput,"Drivers")==0){
+				system("cls");
                 printf("[bot]._.)=>All Drivers\n");
 				  system("Driverquery");
 			
 		}
+	
 		//Clock command
 		else if(strcmp(userinput,"time")==0)
      {
+     	     system("cls");
          time_t s, val =1 ;
          struct tm* current_time;
          //time in second
@@ -174,39 +191,58 @@ int main(){
          //print hour and second
          printf("[bot]._.) ==> %02d:%02d:%02d\n",current_time->tm_hour,current_time->tm_min,current_time->tm_sec);
      }
+     
+     
      //IP command
      else if(strcmp(userinput,"ip")==0){
+     	     system("cls");
      	    printf("[bot]._.)==>You IP\n");
              system("ipconfig /all");
      
          
 		}
+	
 		//Poweroff command
 		 else if(strcmp(userinput,"poweroff")==0){
+		 	     system("cls");
          system("shutdown -s");
          printf("[bot]._.)==>bye\n");
          
 		}
+	
 		//suspend command
 				else if(strcmp(userinput,"suspend")==0){
+					     system("cls");
 		  system("rundll32.exe PowrProf.dll,SetSuspendState");
-		  system("cls");
 		  printf("[bot] ._.)==>Welcome Back\n");
 		}
 		
-		//Clear EasyAccess command
+		// EasyAccess Calc Command
+		else if(strcmp(userinput,"calc")==0){
+         system("start Calculator");
+         system("cls");
+         printf("[bot] ._.)=>[bot]=>Calculator open\n");
+         
+		}
+		
+		
+		// EasyAccess Clear Command
     else if(strcmp(userinput,"clear")==0){
          system("cls"); 
 		}
-		//Update command
+	
+		//Easy Access Update Command
 		else if(strcmp(userinput,"update")==0){
         system("start https://github.com/GabrielLuizSF/easy-access-C");
+             system("cls");
 					printf("===============================================================================\n");
 				printf("Como Atualizar para a Nova Versao ?\n\n\n Esse site que abriu agora e onde e guardado o codigo fonte do Easy Access\n\n Para voce baixar a nova versao basta procurar no README a versao LTS\n\n\n  Ao clicar no nome Download Windows vai baixar um arquivo zip\n\n\nSe tiver a versao 4.0 so precisa substituir os arquivos da pasta binaries pelos da versao LTS\n\n\nQue estao dentro de EasyAccess>>>binaries \n\n\n");
 					printf("===============================================================================\n");
 		}
-		//Manual Command
+		
+		// Easy Access  Manual Command
 		else if(strcmp(userinput,"manual")==0){
+			     system("cls");
 				printf("===============================================================================\n");
 				printf("Manage your Windows.\n\nCommands =>\n\n\n");
 				//Open Systems codes
@@ -217,13 +253,19 @@ int main(){
 				 printf("# google :\n\n=>Abre o Google Search\n\n\n# github :\n\n =>Abre o github mas para funcionar devido a extrema seguranca do github voce precisa dar reload na pagina.\n\n\n# youtube :\n\n=>Abre o youtube\n\n\n");
                  printf("# whatsapp :\n\n=> Abre o whatsapp\n\n\n# netflix :\n\n=> Abre a netflix\n\n\n# stackoverflow :\n\n=> salva voce tirando suas duvidas de programacao & abre o stackoverflow\n\n\n");
                  //Easy Access chat
-                 printf("# exit :\n\n=>Fecha o EasyAccess\n\n\n# hi :\n\n=>diz oi ao EasyAccess\n\n\n# clear :\n\n=>limpa os codigos anteriores'funciona igual o cls do cmd'\n\n# version :\n\n=>mostra a versao do Easy Access\n\n\n");
+                 printf("# exit :\n\n=>Fecha o EasyAccess\n\n\n# hi :\n\n=>diz oi ao EasyAccess\n\n\n# clear :\n\n=>limpa os codigos anteriores'funciona igual o cls do cmd'\n\n# version :\n\n=>mostra a versao do Easy Access\n\n# calc :\n\n=>abre a calculadora do easy access");
                  //S.O codes
                  printf("# time :\n\n => diz a hora\n\n\n# ip :\n\n=> revela todo o seu ip 'funciona igual o ipconfig /all do cmd so que neste terminal so precisa digitar ip'\n\n\n# poweroff :\n\n=> Desliga seu PC\n\n\n# Suspend :\n\n=>suspende o seu PC\n\n\n# Drivers :\n\n=>Mostra todos os Drivers\n\n\n# update :\n\n\n Leva ao repositorio no github para baixar a nova versao\n\n");
 				printf("===============================================================================\n\n\n");
-		}
+		}else if(strcmp(userinput,"")==0){
+			printf("......\n\n");
+		}else{
+	   	printf("\n[bot]??????\n\n\n[ERROR not available  %s ]\n\n\n",userinput);
+	   }
 		
 	}
 
 return 0;
 }
+ 
+
