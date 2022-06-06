@@ -11,7 +11,7 @@
 #define ANSI_COLOR_PURPLE   "\e[1;35m"
 #define ANSI_COLOR_YELLOW   "\e[0;33m"
 #define ANSI_COLOR_BLUE     "\e[0;34m"
-#define VERSION   "[4.2.4]"
+#define VERSION   "[4.4]"
     
 char style;
 char userinput[];
@@ -19,14 +19,11 @@ char userinput[];
 
 int main(){
 
-    system("cls");
+  system("cls");
 	while(1){
 
-    system("cls");
-            printf("\n\n                EASY ACCESS CONSOLE  PRO RELEASE    VERSION:"VERSION);
-                   printf("\n\n===================================================================================\n");
-                       printf(" Run 'manual' to see all available commands.\nMy Creator is  https://github.com/GabrielLuizSF\nOpen Source Repository:https://github.com/GabrielLuizSF/easy-access-C \n\n");
-                             printf("===================================================================================\n");
+    
+            
 		 printf(" =>");
            gets(userinput);
            
@@ -40,8 +37,11 @@ int main(){
 		//VERSION
 		else if(strcmp(userinput,"version")==0){
 			     system("cls");
-				 printf("Easy Access \n\nCopyright (c) 2021 Gabriel Luiz\n\nMIT License\n\nVERSION:"VERSION);
-             
+			     printf("\n\nEASY ACCESS CONSOLE  PRO RELEASE\n\nCopyright (c) 2021 Gabriel Luiz\n\nMIT License\n\nVERSION:"VERSION);
+                   printf("\n\n===================================================================================\n");
+                       printf(" Run 'manual' to see all available commands.\nMy Creator is  https://github.com/GabrielLuizSF\nOpen Source Repository:https://github.com/GabrielLuizSF/easy-access-C \n\n");
+                             printf("===================================================================================\n");
+			
 		}  
 		
 		//HI
@@ -128,13 +128,26 @@ int main(){
 		}
 	
 		//Websites commands
-
+        else if(strcmp(userinput,"localhost")==0){
+       	system("start http://localhost:8080/");
+       	system("cls");
+       	printf("\n[bot]._.)=>Localhost in the port 8080 open\n\n");
+	   }
 		else if(strcmp(userinput,"google")==0){
          system("start https://google.com.br");
          system("cls");
          printf("[bot] ._.)=>Google Open\n");
          
-		}	else if(strcmp(userinput,"github")==0){
+		}
+		//doctor who serie
+			else if(strcmp(userinput,"DW")==0){
+			system("start https://drive.google.com/drive/folders/1cHTAKedH6Hos2vTFHDwYUqQ9l7r-6Om9");
+			system("cls");
+			printf("[bot]._.)=>DW Drive Open");
+		}	
+	
+		
+		else if(strcmp(userinput,"github")==0){
          system("start https://github.com/GabrielLuizSF");
          system("cls");
          printf("[bot] ._.)=>Github Open\n");
@@ -258,7 +271,7 @@ int main(){
                  printf("# time :\n\n => diz a hora\n\n\n# ip :\n\n=> revela todo o seu ip 'funciona igual o ipconfig /all do cmd so que neste terminal so precisa digitar ip'\n\n\n# poweroff :\n\n=> Desliga seu PC\n\n\n# Suspend :\n\n=>suspende o seu PC\n\n\n# Drivers :\n\n=>Mostra todos os Drivers\n\n\n# update :\n\n\n Leva ao repositorio no github para baixar a nova versao\n\n");
 				printf("===============================================================================\n\n\n");
 		}else if(strcmp(userinput,"")==0){
-			printf("......\n\n");
+			printf("void not available n\n");
 		}else{
 	   	printf("\n[bot]??????\n\n\n[ERROR not available  %s ]\n\n\n",userinput);
 	   }
