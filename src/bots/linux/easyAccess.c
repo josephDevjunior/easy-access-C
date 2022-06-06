@@ -23,6 +23,9 @@
 		}else if(strcmp(userinput,"ip")==0){
             printf("[bot]._.)=> You IP");
         system("curl ipconfig.me");
+        }else if(strcmp(userinput,"manualBash")==0){
+            printf("[bot]._.)=>Bash Manual");
+            system("man bash");
         }
 
 
